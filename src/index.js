@@ -1,12 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import registerServiceWorker from './registerServiceWorker'
+import {Router, browserHistory} from 'react-router'
+import Routes from './routes' //'./routes/index.js'
+//import registerServiceWorker from './registerServiceWorker'
 
 ReactDOM.render(
-    <div>
-        <h1>Welcome to Quizoku</h1>
-    </div>,
+    <Router
+        history={browserHistory}
+        routes={Routes}
+    />,
     document.getElementById('root')
 )
 
-registerServiceWorker()
+//registerServiceWorker()

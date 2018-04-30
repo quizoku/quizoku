@@ -12,7 +12,7 @@ class Template extends Component {
             <MuiThemeProvider>
                 <div>
                     <header>
-                        <h1>Quizoku</h1>
+                        <h1>Quizoku(R) All Rights Reserved.</h1>
                         <RaisedButton
                             label={'Test Button'}
                             primary={true}

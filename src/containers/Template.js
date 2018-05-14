@@ -21,7 +21,7 @@ class Template extends Component {
                         Tic Tac Toe
                     </Header>
                     <Main>
-                        {this.props.children}
+                        {this.props.children} // all the child routes(beneath root route) go here
                     </Main>
                 </div>
             </MuiThemeProvider>
